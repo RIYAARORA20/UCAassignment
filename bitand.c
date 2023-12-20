@@ -19,12 +19,8 @@ int main(){
 
 
 
-// int sign(int x){
-//         return (x>>31 & ~0 ) | (!!x);
-// }
-// int logicalShift( int x, int n){
-//     return (x>>n)&(~(~0 << (32+(~n +1))));
-// }
+
+
 // int invert(int a, int p, int n){
 //     int mask = ~((~0)<<n) << p;
 //     // printf("%x",a^mask);
