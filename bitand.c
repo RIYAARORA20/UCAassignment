@@ -1,3 +1,4 @@
+//1)
 /*
 /*  bitAnd - x & y using only ~ and |
 /* Example bitAnd(6, 5) = 4
@@ -12,15 +13,12 @@ int bitAnd(int x, int y){
 }
 int main(){
     assert(bitAnd(4,5));
+    assert(bitAnd(2,3));
 }
 
-// int bitXor(int x, int y){
-//     return ((x&(~y)) | (y&(~x)));
-// }
 
-// int getByte(int x, int n){
-//     return (x>>(n<<3))&255;
-// }
+
+
 // int sign(int x){
 //         return (x>>31 & ~0 ) | (!!x);
 // }
